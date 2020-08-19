@@ -96,14 +96,14 @@
     </div>
       <div class="about__jobs">
         <div class="job">
-          <img src="#" alt="company" class="job__logo" />
+          <img src="imgs/ylogo.png" alt="company" class="job__logo" />
           <div class="job__description">
           <p class="job__name">company name</p>
           <p class="job__period">work period</p>
         </div>
       </div>
       <div class="job">
-        <img src="#" alt="company" class="job__logo" />
+        <img src="imgs/favicon.png" alt="company" class="job__logo" />
         <div class="job__description">
         <p class="job__name">company name</p>
         <p class="job__period">work period</p>
@@ -188,16 +188,16 @@
       <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="button category__btn active">
+        <button class="button category__btn active" data-filter="*">
           All<span class="category__count">2</span>
         </button>
-        <button class="button category__btn">
+        <button class="button category__btn" data-filter="front-end">
           Front-end<span class="category__count">1</span>
         </button>
-        <button class="button category__btn">
+        <button class="button category__btn" data-filter="back-end">
           Back-end<span class="category__count">1</span>
         </button>
-        <button class="button category__btn">
+        <button class="button category__btn" data-filter="mobile">
           Mobile<span class="category__count">0</span>
         </button>
       </div>
@@ -207,23 +207,52 @@
           href="https://github.com/pym514/portfolio"
           class="project"
           target="blank"
-        >
+          data-type="front-end">
+          <img src="imgs/ylogo.png" alt="proejct photo" class="project__img" />
+
+        
           <div class="project__description">
             <h3>project from the school</h3>
             <span>what i have learned from the school</span>
           </div>
-          <img src="imgs/ylogo.png" alt="proejct photo" class="project__img" />
         </a>
+        <a
+        href="https://github.com/pym514/portfolio"
+        class="project"
+        target="blank"
+        data-type="back-end">
+        <img src="imgs/ylogo.png" alt="proejct photo" class="project__img" />
+
+      
+        <div class="project__description">
+          <h3>project from the school</h3>
+          <span>what i have learned from the school</span>
+        </div>
+      </a>
+      <a
+      href="https://github.com/pym514/portfolio"
+      class="project"
+      target="blank"
+      data-type="mobile">
+      <img src="imgs/ylogo.png" alt="proejct photo" class="project__img" />
+
+    
+      <div class="project__description">
+        <h3>project from the school</h3>
+        <span>what i have learned from the school</span>
+      </div>
+    </a>
         <a
           href="https://github.com/pym514/portfolio"
           class="project"
           target="blank"
-        >
+          data-type="front-end"
+          >
+          <img src="imgs/ylogo.png" alt="proejct photo" class="project__img" />
           <div class="project__description">
             <h3>project from the school</h3>
             <span>what i have learned from the school</span>
           </div>
-          <img src="imgs/ylogo.png" alt="proejct photo" class="project__img" />
         </a>
       </div>
     </div>
