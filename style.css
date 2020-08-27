@@ -259,6 +259,7 @@ button {
 }
 .skillset__title {
   color: var(--color-light-white);
+  padding-top: 10px;
 }
 .skillset__left {
   flex-basis: 60%;
